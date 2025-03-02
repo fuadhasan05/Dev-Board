@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .poppins-font {
+            font-family: "Poppins", sans-serif;
+            font-optical-sizing: auto;
+        }
+    </style>
+</head>
+
+<body class="poppins-font bg-[#F4F7FF]">
+    <!-- header -->
+    <header class="container mx-auto bg-white rounded-2xl p-5">
+        <nav class="flex justify-between">
+            <div class="flex items-center">
+                <img src="assets/logo.png" alt="">
+                <span class="text-4xl">Dev<span class="font-bold">Board</span></span>
+            </div>
+
+            <div>
+                <button id="back" class="tracking-wide bg-[#3752FD] rounded-xl py-3 px-5 text-white cursor-pointer">Back
+                    to Desk</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blogs section-->
+    <section class="container mx-auto pb-8">
+        <h2 class="text-4xl font-bold text-center my-4">Blogs</h2>
+        <div class="grid gap-4">
+
+            <!-- Question-1 -->
+            <div class="bg-white rounded-xl py-4">
+                <h4 class="text-xl font-bold px-4">Question-1: What are the different ways to select an element in the
+                    DOM?</h4>
+                <!-- space -->
+                <div class="border border-gray-200 border-dashed my-4">
+                </div>
+                <p class="text-base px-4">In JavaScript, there are multiple ways to select an element in the DOM. Here
+                    are the most common methods:
+                    <br> getElementById(), getElementsByClassName(), getElementsByTagName(), getElementsByName(),
+                    querySelector() & querySelectorAll() .
+                </p>
+            </div>
+
+            <!-- Question-2 -->
+            <div class="bg-white rounded-xl py-5">
+                <h4 class="text-xl font-bold px-5">Question-2: What is the difference between innerHTML, innerText, and
+                    textContent?</h4>
+                <!-- space -->
+                <div class="border border-gray-200 border-dashed my-5">
+                </div>
+                <p class="text-base px-5"> 1. innerHTML : Gets or sets the HTML content inside an element. <br>
+                    2. innerText : Gets or sets the visible text inside an element. <br>
+                    3. textContent : Gets or sets all text inside an element, including hidden text.
+                </p>
+            </div>
+
+            <!-- Question-3 -->
+            <div class="bg-white rounded-xl py-5">
+                <h4 class="text-xl font-bold px-5">Question-3: What is event delegation in the DOM?</h4>
+                <!-- space -->
+                <div class="border border-gray-200 border-dashed my-5">
+                </div>
+                <p class="text-base px-5">Event Delegation is a technique in JavaScript where a parent element handles
+                    events for its child elements, even if those child elements are dynamically added later.
+                </p>
+            </div>
+
+            <!-- Question-4 -->
+            <div class="bg-white rounded-xl py-5">
+                <h4 class="text-xl font-bold px-5">Question-4: What is event bubbling in the DOM?
+                </h4>
+                <!-- space -->
+                <div class="border border-gray-200 border-dashed my-5">
+                </div>
+                <p class="text-base px-5">Event Bubbling is a process where an event starts from the target element and
+                    propagates up through its parent elements to the root of the DOM.</p>
+            </div>
+
+            <!-- Question-5 -->
+            <div class="bg-white rounded-xl py-5">
+                <h4 class="text-xl font-bold px-5">Question-5: How do you create, add, and remove elements using
+                    JavaScript?
+                </h4>
+                <!-- space -->
+                <div class="border border-gray-200 border-dashed my-5">
+                </div>
+                <p class="text-base px-5">To create, add and remove elements in JavaScript we use createElement(),
+                    appendChild(), removeChild()</p>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+
+</html>
